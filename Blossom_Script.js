@@ -2,6 +2,7 @@ var i = 0;
 const content = document.getElementById('pagecontent')
 document.getElementById('nextbtn').addEventListener('click',register)
 document.getElementById('startbtn').addEventListener('click',start)
+
 function ActivateShowpage() {
   setTimeout(showpage,3000)
 }
@@ -31,12 +32,12 @@ function start() {
           document.getElementById("msg").innerHTML = '<p> กรุณาใส่ชื่อของคุณ </p>'
 }
   else {
-    let sound = new Howl({
+   /* let sound = new Howl({
       src: ['/media/Audio/Audio_Worshipsong.mp3']  
     });
     sound.play()
     sound.volume(0.25)
-    sound.loop(true);
+    sound.loop(true);*/
 
     console.log(name)
     document.getElementById('pagecontent').classList.add("fadeout")
