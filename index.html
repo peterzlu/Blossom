@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blossom</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/Style.css">
+  <link rel="icon" type="image/x-icon" href="/Media/Graphic/Logo-01.png">
+  <script src="/Blossom_Script.js" defer></script>
+  <script type="text/javascript" 
+src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.min.js"></script>
+</head>
+
+
+<body onload="ActivateShowpage()">
+  <div id="loader" class="lds-dual-ring"></div>
+  <div id="pagecontent" class="content fadein">
+    <nav>
+      <img src="/Media/Graphic/Logo-01.png" class="logo">
+    </nav>
+    <main>
+      <h1> BLOSSOM </h1> <br>
+      <h2>  ยินดีต้อนรับ...ไม่ว่าจะเข้ามาด้วยความบังเอิญหรือตั้งใจ </h2>
+      <h4 id="speech">  "ขอให้ปล่อยเวลาหลังจากนี้ สำรวจหัวใจของตัวเอง จงเติบโตเป็นดอกไม้ที่บานสะพรั่งและงดงาม" -  Blossom </h4>
+    </main>
+    <Button id="nextbtn" class="nextbtn"> NEXT </Button>
+
+  <footer>
+    <p>   เว็บไซต์นี้มีเนื้อหาเกี่ยวกับการประเมินประเมินภาวะวิตกกังวลเบื้องต้น และประเมินความจำเป็นในการได้รับการดูแลจากผู้เชี่ยวชาญ ผลการประเมินในแบบทดสอบนี้อาจคลาดเคลื่อนได้ </p>
+  </footer>
+
+  <div id="register" class="registerbox movein">
+    <h1> กรุณาใส่ชื่อของคุณ </h1>
+    <label> ชื่อ: </label>
+    <input type="text" placeholder="ใส่ชื่อเล่นของคุณที่นี่" id="username" value=""></input> <br>
+    <p id="msg">   เราจะไม่บันทึกข้อมูลของคุณไว้ในระบบ </p>
+    <Button id="startbtn" class="startbtn"> เริ่มทำแบบทดสอบ </Button>
+  </div>
+</div>
+<div id="alertmsg"></div>
+</body>
+
+</html>
