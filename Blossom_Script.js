@@ -290,7 +290,7 @@ function story12() {
   setTimeout (document.getElementById('alertmsg').innerHTML='',3000)
   document.getElementById('pagecontent').innerHTML = 
   ` <div> 
-      <h1 class="fadein instruction"> ขอบคุณนะ... </h1>
+      <h1 class="fadein instruction"> เข้าใจแล้วล่ะ... </h1>
     </div>
     `
     setTimeout(() => {
@@ -302,7 +302,7 @@ function story13() {
   document.removeEventListener('click',story13)
   document.getElementById('pagecontent').innerHTML =
   ` <div> 
-      <h1 class="instruction fadein" > ที่ไม่ยอมแพ้... </h1>
+      <h1 class="instruction fadein" > ขอบคุณในความจริงใจของเธอนะ </h1>
     </div>
   `
   document.addEventListener('click',story14)
@@ -325,7 +325,7 @@ function story14() {
 function story15() {
   document.getElementById('pagecontent').innerHTML =
   ` <div> 
-      <h1 class="fadein instruction"> วิเคราะห์ผลการประเมิน... </h1>
+      <h1 class="fadein instruction"> กำลังวิเคราะห์ผลการประเมิน... </h1>
     </div>
   `
   setTimeout(() => {
